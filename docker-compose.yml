@@ -5,9 +5,9 @@ services:
     image: jira-ca:latest
     #image: dchevell/jira-software:latest
     networks:
-      - cloudacademylabs
+      - labs
     ports:
       - 8888:8080      
 networks:
-  cloudacademylabs:
-    name: cloudacademylabs
+  labs:
+    name: labs
